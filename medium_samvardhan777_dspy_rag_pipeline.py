@@ -7,7 +7,8 @@
 if __name__ == '__main__':
 	openai_api_key = "update with your OpenAPI key"
 	
-	
+	# Use a RAG pipeline with Qdrant and DSPy to ask a question about an online article. 
+    
     # Load an online article into a Qdrant vector database and then one-shot query with DSPy
     # source: https://medium.com/@samvardhan777/exploring-the-dspy-framework-building-simple-rag-pipelines-2efa0efa634b
     # https://github.com/samvardhan777/DSPy_Playground/blob/main/dspy_qdrant.ipynb
